@@ -15,11 +15,11 @@ from ibapi.common import BarData
 from ib_insync import *
 
 import openai
-openai.api_key = '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'
+openai.api_key = '********************************'
 
 import alpaca_trade_api as tradeapi
-alpaca_api_key = 'AKSR8N1N9O2YP12J9USP'
-alpaca_api_secret = '3AmrHYhL0EbTSVLbwGo1QpHXiEumlwpQvhVPo4uF'
+alpaca_api_key = '**************************'
+alpaca_api_secret = '*********************************'
 
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import websockets
